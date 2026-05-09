@@ -4,7 +4,7 @@ function Projects() {
   return (
     <section className="snap-section projects-section">
         <h2 className="section-title">Projekter</h2>
-
+            <div className="section-content">
                 <Row className="g-4">
                 <Col md={6}>
                     <Card bg="dark" text="light">
@@ -34,6 +34,7 @@ function Projects() {
                     </Card>
                 </Col>
                 </Row>
+            </div>
     </section>
   )
 }

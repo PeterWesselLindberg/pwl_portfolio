@@ -42,6 +42,9 @@ function Skills() {
                     </Badge>
                 ))}
                 </div>
+                {/* <div className="bottom-left-text">
+                  React • TypeScript • Bootstrap
+                </div> */}
     </section>
   )
 }

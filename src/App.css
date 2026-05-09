@@ -34,6 +34,14 @@ html, body {
   margin: 0;
 }
 
+.bottom-left-text {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+
+  font-size: 1rem;
+}
+
 /* Center content properly */
 .section-content {
   height: 100%;
@@ -47,6 +55,14 @@ html, body {
   background-color: #0f172a; /* dark navy */
   color: white;
 }
+/* Image version */
+/* .hero-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+} */
 
 .about-section {
   background-color: #f8fafc; /* light gray */
