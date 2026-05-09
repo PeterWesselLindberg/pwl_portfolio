@@ -2,16 +2,20 @@
 
 function Hero() {
   return (
-    <section>
-        <div>
-          <h1>
-            Hej, jeg hedder xomiz
-          </h1>
+    // <section>
 
-          <p>
-            Frontend Developer
-          </p>
-        </div>
+    //   <div>
+    //     <h1>Hej, jeg hedder xomiz</h1>
+    //     <p>Frontend Developer</p>
+    //   </div>
+    // </section>
+
+    <section className="snap-section hero-section">
+
+      <div className="section-content">
+        <h1>Hej, jeg hedder xomiz</h1>
+        <p>Frontend Developer</p>
+      </div>
     </section>
   )
 }

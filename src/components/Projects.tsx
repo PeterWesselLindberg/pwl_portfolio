@@ -2,10 +2,8 @@ import { Card, Col, Row } from 'react-bootstrap'
 
 function Projects() {
   return (
-    <section>
-                <h2 className="display-4 mb-5">
-                Projekter
-                </h2>
+    <section className="snap-section projects-section">
+        <h2 className="section-title">Projekter</h2>
 
                 <Row className="g-4">
                 <Col md={6}>
