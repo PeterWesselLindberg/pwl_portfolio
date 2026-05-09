@@ -1,0 +1,43 @@
+import { Card, Col, Row } from 'react-bootstrap'
+
+function Projects() {
+  return (
+    <section>
+                <h2 className="display-4 mb-5">
+                Projekter
+                </h2>
+
+                <Row className="g-4">
+                <Col md={6}>
+                    <Card bg="dark" text="light">
+                    <Card.Body>
+                        <Card.Title>
+                        Portfolio Website
+                        </Card.Title>
+
+                        <Card.Text>
+                        Bygget med React og TypeScript.
+                        </Card.Text>
+                    </Card.Body>
+                    </Card>
+                </Col>
+
+                <Col md={6}>
+                    <Card bg="dark" text="light">
+                    <Card.Body>
+                        <Card.Title>
+                        Weather App
+                        </Card.Title>
+
+                        <Card.Text>
+                        App med API integration.
+                        </Card.Text>
+                    </Card.Body>
+                    </Card>
+                </Col>
+                </Row>
+    </section>
+  )
+}
+
+export default Projects
