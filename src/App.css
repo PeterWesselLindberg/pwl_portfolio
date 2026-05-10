@@ -29,7 +29,7 @@ html, body {
   position: absolute;
   top: 20px;
   left: 40px;
-  font-size: 2rem;
+  font-size: 5rem;
   font-weight: 600;
   margin: 0;
 }
@@ -51,10 +51,24 @@ html, body {
   flex-direction: column;
 }
 
+/*.hero-section {
+  background-color: #0f172a;  dark navy 
+  color: white;
+} */
 .hero-section {
-  background-color: #0f172a; /* dark navy */
+  background: linear-gradient(
+    135deg,
+  #122b4c 0.000%,
+  #033166 16.667%,
+  #01619c 33.333%,
+  #0b89cf 50.000%,
+  #217fe4 66.667%, 
+  #444ecf 83.333%,
+  #72289b 100.000%);
+
   color: white;
 }
+
 /* Image version */
 /* .hero-section {
   background-size: cover;
@@ -69,15 +83,22 @@ html, body {
 }
 
 .skills-section {
-  background-color: #1e293b; /* slate */
-  color: white;
+  background: linear-gradient(
+    135deg,
+    #ffbb00 0.000%,
+    #ffa026 25.000%,
+    #e88744 50.000%,
+    #ba7051 75.000%,
+    #755b4b 100.000%);
+
+  color: black;
 }
 
 .projects-section {
   background-color: #ffffff;
 }
 
-/* .hero-content {
+.hero-content {
   display: flex;
   flex-direction: column;
 
@@ -85,16 +106,17 @@ html, body {
   justify-content: center;
 
   text-align: center;
+  height: 100%;
 }
 
 .hero-image {
-  width: 250px;
+  width: 600px;
   height: auto;
 
   margin-bottom: 20px;
 
   border-radius: 20px;
-} */
+}
 
 /* .column-layout {
   width: 100%;
@@ -159,4 +181,68 @@ html, body {
   flex-direction: column;
 
   gap: 15px;
+}
+
+.divider {
+  width: 200px;
+  height: 2px;
+
+  margin: 15px auto;
+
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgb(255, 255, 255),
+    transparent
+  );
+}
+
+.full-divider {
+  border: none;
+  height: 2px;
+
+  width: 100%;   /* full viewport width */
+  margin: 20px 0;
+
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgb(255, 255, 255),
+    transparent
+  );
+}
+
+.large-font_size {
+  font-size: 40px;
+}
+
+.project-card {
+  height: 100%;
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.project-links a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+.project-image {
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }

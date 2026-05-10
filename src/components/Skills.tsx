@@ -70,7 +70,7 @@ function Skills() {
     //             </div> */}
     // </>
     <>
-      <h2 className="section-title">Skills</h2>
+      <h2 className="section-title">Evner</h2>
 
       <div className="skills-layout">
 
