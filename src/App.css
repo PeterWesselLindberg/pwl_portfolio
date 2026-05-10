@@ -91,11 +91,46 @@ html, body {
     #ba7051 75.000%,
     #755b4b 100.000%);
 
-  color: black;
+  color: white;
 }
 
 .projects-section {
-  background-color: #ffffff;
+  background: linear-gradient(
+    135deg,
+    #196718 0.000%,
+    #346b29 20.000%,
+    #55803d 40.000%,
+    #789f54 60.000%,
+    #99bd6d 80.000%,
+    #b4d088 100.000%);
+
+  color: white;
+}
+
+.education-section {
+  background: linear-gradient(
+    315deg,
+    #e1c3a7 0.000%,
+    #d289e1 25.000%,
+    #af37f6 50.000%,
+    #7a00e4 75.000%,
+    #3400ad 100.000%);
+
+  color: white;
+}
+
+.contact-section {
+  background: linear-gradient(
+    315deg,
+    #824120 0.000%,
+    #a5673d 16.667%,
+    #b97e51 33.333%,
+    #b9784c 50.000%,
+    #a55931 66.667%,
+    #813418 83.333%,
+    #582216 100.000%);
+
+  color: white;
 }
 
 .hero-content {

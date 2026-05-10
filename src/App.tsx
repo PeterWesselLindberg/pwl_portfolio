@@ -26,11 +26,11 @@ function App() {
         <Projects />
       </section>
       
-      <section className='snap-section'>
+      <section className='snap-section education-section'>
         <Education />
       </section>
 
-      <section className='snap-section'>
+      <section className='snap-section contact-section'>
         <Contact />
       </section>
     </div>

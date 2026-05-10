@@ -1,6 +1,7 @@
 // import { Badge} from 'react-bootstrap'
 import { useState } from "react";
 import { Button, ProgressBar } from "react-bootstrap";
+import { motion } from "framer-motion";
 function Skills() {
   // const skills = [
   //   'React',
@@ -69,13 +70,27 @@ function Skills() {
     //               React • TypeScript • Bootstrap
     //             </div> */}
     // </>
+    
     <>
-      <h2 className="section-title">Evner</h2>
+      <h2 className="section-title">Skills</h2>
 
       <div className="skills-layout">
-
+        
         {/* LEFT SIDE */}
-        <div className="skills-buttons">
+        <motion.div
+          className="skills-buttons"
+
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+
+          viewport={{ amount: 0.3 }}
+
+          transition={{
+            duration: 0.5,
+            ease: "easeOut",
+          }}
+        >
+          
           {Object.keys(skillCategories).map((category) => (
             <Button
               key={category}
@@ -93,10 +108,24 @@ function Skills() {
               {category}
             </Button>
           ))}
-        </div>
-
+          
+        </motion.div>
+        
+        
         {/* RIGHT SIDE */}
-        <div className="skills-list">
+        <motion.div
+          className="skills-list"
+
+          initial={{ opacity: 0, x: 40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+
+          viewport={{ amount: 0.3 }}
+
+          transition={{
+            duration: 0.5,
+            ease: "easeOut",
+          }}
+        >
           {skillCategories[selectedCategory].map((skill) => (
             <div key={skill.name} className="skill-item">
 
@@ -108,10 +137,10 @@ function Skills() {
 
             </div>
           ))}
-        </div>
-
+        </motion.div>
       </div>
   </>
+  
   )
 }
 

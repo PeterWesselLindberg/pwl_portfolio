@@ -2,7 +2,7 @@
 const Education = () => {
   return (
     <>
-        <h2 className="section-title">Uddannelse</h2>
+        <h2 className="section-title">Education</h2>
         <div className="section-content">
             <div className="center-columns">
                 <div className="column">
