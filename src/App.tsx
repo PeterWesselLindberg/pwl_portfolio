@@ -4,7 +4,8 @@ import Hero from './components/Hero'
 // import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
-//import Contact from './components/Contact'
+import Contact from './components/Contact'
+import Education from './components/Education'
 
 function App() {
   return (
@@ -21,8 +22,16 @@ function App() {
         <Skills />
       </section>
 
-      <section className="snap-section">
+      <section className="snap-section projects-section">
         <Projects />
+      </section>
+      
+      <section className='snap-section'>
+        <Education />
+      </section>
+
+      <section className='snap-section'>
+        <Contact />
       </section>
     </div>
   )

@@ -76,3 +76,87 @@ html, body {
 .projects-section {
   background-color: #ffffff;
 }
+
+/* .hero-content {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.hero-image {
+  width: 250px;
+  height: auto;
+
+  margin-bottom: 20px;
+
+  border-radius: 20px;
+} */
+
+/* .column-layout {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 60px;
+} */
+
+/* SIDE TEXT */
+/* .side-text {
+  width: 200px;
+
+  font-size: 1.2rem;
+} */
+
+/* OPTIONAL ALIGNMENT */
+/* .left-text {
+  text-align: left;
+} */
+
+/* .right-text {
+  text-align: right;
+} */
+ .center-columns {
+  display: grid;
+
+  grid-template-columns: repeat(2, 250px);
+
+  gap: 80px;
+
+  justify-content: center;
+}
+
+.skills-layout {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 500px;
+
+
+  height: 100%;
+}
+
+/* LEFT */
+.skills-buttons {
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+}
+
+/* RIGHT */
+.skills-list {
+  width: 400px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+}

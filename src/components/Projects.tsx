@@ -2,7 +2,7 @@ import { Card, Col, Row } from 'react-bootstrap'
 
 function Projects() {
   return (
-    <section className="snap-section projects-section">
+    <>
         <h2 className="section-title">Projekter</h2>
             <div className="section-content">
                 <Row className="g-4">
@@ -35,7 +35,7 @@ function Projects() {
                 </Col>
                 </Row>
             </div>
-    </section>
+    </>
   )
 }
 

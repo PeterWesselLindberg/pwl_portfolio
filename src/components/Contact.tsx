@@ -1,7 +1,10 @@
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className="section-content">
+        <h1>Contact</h1>
+        <p>info</p>
+    </div>
   )
 }
 
