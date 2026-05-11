@@ -11,27 +11,48 @@ function Skills() {
   //   'JavaScript',
   // ]
   const skillCategories = {
-    Frontend: [
-      { name: "React", level: 90 },
-      { name: "TypeScript", level: 85 },
-      { name: "Bootstrap", level: 80 },
-      { name: "Vite", level: 75 },
+    "Programming languages": [
+      { name: "C#", level: 80 },
+      { name: "Python", level: 80 },
+      { name: "C/C++", level: 50 },
+      { name: "Java", level: 50 },
+      { name: "JavaScript/TypeScript", level: 60 },
+      { name: "Haskell", level: 60 },
+      { name: "Erlang", level: 80 },
+      { name: "Lisp", level: 40 },
+      { name: "Prolog", level: 50 },
+      { name: "Bash", level: 60 },
+      { name: "SQL", level: 60 },
+      { name: "F#", level: 80 },
     ],
 
-    Backend: [
-      { name: "Node.js", level: 75 },
-      { name: "Express", level: 70 },
-      { name: "MongoDB", level: 65 },
+    "Game engines": [
+      { name: "Unity", level: 60 },
+      { name: "Godot", level: 60 },
     ],
 
-    Tools: [
-      { name: "Git", level: 85 },
-      { name: "Figma", level: 60 },
+    "Frontend Tools": [
+      { name: "React", level: 60 },
+      { name: "Bootstrap", level: 60 },
+      { name: "Vite", level: 60 },
+      { name: "Node.js", level: 60 },
+      { name: "Html/Css", level: 80 },
+      { name: "Framer", level: 50 },
+    ],
+
+    "Backend Tools": [
+      { name: "Github/Gitlab", level: 80 },
       { name: "Docker", level: 50 },
+    ],
+
+    "Other Tools": [
+      { name: "Isabelle proof assistant", level: 50 },
+      { name: "Microsoft office 365", level: 80 },
+      { name: "Latex", level: 80 },
     ],
   };
     const [selectedCategory, setSelectedCategory] =
-      useState<keyof typeof skillCategories>("Frontend");
+      useState<keyof typeof skillCategories>("Programming languages");
 
   return (
     // <section>
@@ -72,7 +93,7 @@ function Skills() {
     // </>
     
     <>
-      <h2 className="section-title">Skills</h2>
+      <h2 className="section-title">IT-compentecies</h2>
 
       <div className="skills-layout">
         

@@ -181,7 +181,7 @@ html, body {
  .center-columns {
   display: grid;
 
-  grid-template-columns: repeat(2, 250px);
+  grid-template-columns: repeat(2, 600px);
 
   gap: 80px;
 

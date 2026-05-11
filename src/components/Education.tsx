@@ -6,7 +6,8 @@ const Education = () => {
         <div className="section-content">
             <div className="center-columns">
                 <div className="column">
-                <h1>Uddannelse 1</h1>
+                <h1>Master's degree in computer science</h1>
+                <h6> Just for the fun of it</h6>
                 <p>info</p>
                 </div>
 

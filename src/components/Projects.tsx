@@ -5,11 +5,11 @@ function Projects() {
     const projects = [
     {
         title: "Portfolio Website",
-        description: "Built with React and TypeScript",
+        description: "This very page Built with React and TypeScript",
         image: "",
-        repo: "https://github.com/yourname/portfolio",
-        video: "https://youtube.com/yourvideo",
-        live: "https://yourportfolio.com"
+        repo: "https://github.com/PeterWesselLindberg/pwl_portfolio",
+        video: "",
+        live: ""
     },
     {
         title: "Weather App",
