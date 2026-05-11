@@ -178,6 +178,10 @@ html, body {
 /* .right-text {
   text-align: right;
 } */
+.text-soft-gray {
+  color: #9ca3af;
+}
+
  .center-columns {
   display: grid;
 
@@ -280,4 +284,23 @@ html, body {
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+}
+
+.contact-section {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section img {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  cursor: pointer;
+}
+
+.contact-section img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
 }

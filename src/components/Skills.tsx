@@ -14,13 +14,13 @@ function Skills() {
     "Programming languages": [
       { name: "C#", level: 80 },
       { name: "Python", level: 80 },
-      { name: "C/C++", level: 50 },
-      { name: "Java", level: 50 },
+      { name: "C/C++", level: 60 },
+      { name: "Java", level: 60 },
       { name: "JavaScript/TypeScript", level: 60 },
       { name: "Haskell", level: 60 },
       { name: "Erlang", level: 80 },
       { name: "Lisp", level: 40 },
-      { name: "Prolog", level: 50 },
+      { name: "Prolog", level: 60 },
       { name: "Bash", level: 60 },
       { name: "SQL", level: 60 },
       { name: "F#", level: 80 },
@@ -37,16 +37,16 @@ function Skills() {
       { name: "Vite", level: 60 },
       { name: "Node.js", level: 60 },
       { name: "Html/Css", level: 80 },
-      { name: "Framer", level: 50 },
+      { name: "Framer", level: 60 },
     ],
 
     "Backend Tools": [
       { name: "Github/Gitlab", level: 80 },
-      { name: "Docker", level: 50 },
+      { name: "Docker", level: 60 },
     ],
 
     "Other Tools": [
-      { name: "Isabelle proof assistant", level: 50 },
+      { name: "Isabelle proof assistant", level: 60 },
       { name: "Microsoft office 365", level: 80 },
       { name: "Latex", level: 80 },
     ],

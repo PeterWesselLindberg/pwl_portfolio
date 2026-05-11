@@ -56,9 +56,11 @@ function Projects() {
                             GitHub
                             </a>
 
+                            {project.video && (
                             <a href={project.video} target="_blank" rel="noreferrer">
-                            Video
+                                Video
                             </a>
+                            )}
 
                             {project.live && (
                             <a href={project.live} target="_blank" rel="noreferrer">
