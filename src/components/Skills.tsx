@@ -3,13 +3,7 @@ import { useState } from "react";
 import { Button, ProgressBar } from "react-bootstrap";
 import { motion } from "framer-motion";
 function Skills() {
-  // const skills = [
-  //   'React',
-  //   'TypeScript',
-  //   'Vite',
-  //   'Bootstrap',
-  //   'JavaScript',
-  // ]
+ 
   const skillCategories = {
     "Programming languages": [
       { name: "C#", level: 80 },
@@ -54,46 +48,9 @@ function Skills() {
     const [selectedCategory, setSelectedCategory] =
       useState<keyof typeof skillCategories>("Programming languages");
 
-  return (
-    // <section>
-    //             <h2>Evner</h2>
-
-    //             <div>
-    //             {skills.map((skill) => (
-    //                 <Badge
-    //                 bg="light"
-    //                 text="dark"
-    //                 key={skill}
-    //                 className="p-3"
-    //                 >
-    //                 {skill}
-    //                 </Badge>
-    //             ))}
-    //             </div>
-    // </section>
-
-    // <>
-    //             <h2 className="section-title">Skills</h2>
-
-    //             <div className="section-content">
-    //             {skills.map((skill) => (
-    //                 <Badge
-    //                 bg="light"
-    //                 text="dark"
-    //                 key={skill}
-    //                 className="p-3"
-    //                 >
-    //                 {skill}
-    //                 </Badge>
-    //             ))}
-    //             </div>
-    //             {/* <div className="bottom-left-text">
-    //               React • TypeScript • Bootstrap
-    //             </div> */}
-    // </>
-    
+  return (    
     <>
-      <h2 className="section-title">IT-compentecies</h2>
+      <h2 className="section-title">Skills</h2>
 
       <div className="skills-layout">
         
