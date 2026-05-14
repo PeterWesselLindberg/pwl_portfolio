@@ -12,12 +12,12 @@ function Projects() {
         live: ""
     },
     {
-        title: "Weather App",
-        description: "API-based weather application",
+        title: "Algoritm Visualizer",
+        description: "A tool for visualising selected algorithms built with React and Typescript",
         image: "",
-        repo: "https://github.com/yourname/weather-app",
-        video: "https://youtube.com/yourvideo",
-        live: ""
+        repo: "https://github.com/PeterWesselLindberg/Algorithm_Analysis_Tool",
+        video: "",
+        live: "https://peterwessellindberg.github.io/Algorithm_Analysis_Tool/"
     }
     ]; 
     const cardVariants = {
