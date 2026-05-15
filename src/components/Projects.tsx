@@ -12,8 +12,8 @@ function Projects() {
         live: ""
     },
     {
-        title: "Algoritm Visualizer",
-        description: "A tool for visualising selected algorithms built with React and Typescript",
+        title: "Algoritm Visualizer(WIP)",
+        description: "A tool for visualising select algorithms built with React and Typescript",
         image: "",
         repo: "https://github.com/PeterWesselLindberg/Algorithm_Analysis_Tool",
         video: "",
