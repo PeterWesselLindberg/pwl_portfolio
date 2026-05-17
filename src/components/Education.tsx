@@ -9,7 +9,7 @@ const Education = () => {
                 <h1>Master's degree in computer science</h1>
                 <h6 className="text-soft-gray"> University of Copenhagen ● graduated: February 2026</h6>
                     <p>
-                    Genereal profile in computer science with a focus on machine learning, human computer interaction, understanding research, 
+                    General profile in computer science with a focus on machine learning, human computer interaction, understanding research, 
                     softwaredesign and -implementation.
                     </p>
                     <p>
