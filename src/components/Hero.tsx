@@ -16,7 +16,7 @@ function Hero() {
         <div className="full-divider"/>
         
         <div className="large-font_size">
-          <p>Master's graduate in Computer Science</p>
+          <p>Full Stack Developer</p>
         </div>
       </div>
     </section>

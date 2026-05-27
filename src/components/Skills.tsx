@@ -6,18 +6,18 @@ function Skills() {
  
   const skillCategories = {
     "Programming languages": [
-      { name: "C#", level: 80 },
-      { name: "Python", level: 80 },
+      { name: "C#", level: 100 },
+      { name: "Python", level: 100 },
       { name: "C/C++", level: 60 },
       { name: "Java", level: 60 },
-      { name: "JavaScript/TypeScript", level: 60 },
+      { name: "JavaScript/TypeScript", level: 80 },
       { name: "Haskell", level: 60 },
       { name: "Erlang", level: 80 },
       { name: "Lisp", level: 40 },
       { name: "Prolog", level: 60 },
       { name: "Bash", level: 60 },
       { name: "SQL", level: 60 },
-      { name: "F#", level: 80 },
+      { name: "F#", level: 100 },
     ],
 
     "Game engines": [

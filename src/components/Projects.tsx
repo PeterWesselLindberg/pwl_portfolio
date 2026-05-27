@@ -1,5 +1,6 @@
 import { Card, Col, Row } from 'react-bootstrap'
 import { motion } from "framer-motion";
+import algoImage from "../assets/Algo_tool.png";
 
 function Projects() {
     const projects = [
@@ -13,8 +14,8 @@ function Projects() {
     },
     {
         title: "Algoritm Visualizer(WIP)",
-        description: "A tool for visualising select algorithms built with React and Typescript",
-        image: "",
+        description: "A tool for visualising select algorithms and datastructures, built with React and Typescript",
+        image: algoImage,
         repo: "https://github.com/PeterWesselLindberg/Algorithm_Analysis_Tool",
         video: "",
         live: "https://peterwessellindberg.github.io/Algorithm_Analysis_Tool/"
