@@ -26,8 +26,8 @@ function Skills() {
     ],
 
     "Frontend Tools": [
-      { name: "React", level: 60 },
-      { name: "Bootstrap", level: 60 },
+      { name: "React", level: 80 },
+      { name: "Bootstrap", level: 80 },
       { name: "Vite", level: 60 },
       { name: "Node.js", level: 60 },
       { name: "Html/Css", level: 80 },
